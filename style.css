@@ -9,6 +9,9 @@ body{
 	min-width:250px;
 	max-height:600px;
 }
+.htmlto{
+	display:none;
+}
 .navbttn{
 	background: white;
 	border: none;
@@ -16,6 +19,25 @@ body{
 	padding: 2px;
 }
 .navbttn:hover{
+	background: rgba(83, 71, 65, 0.46);
+}
+.navbttnclear{
+	background: white;
+	border: none;
+	margin-left: 5px;
+	border-radius: 5px;
+	padding: 2px;
+}
+.navbttnclear:hover{
+	background: rgba(83, 71, 65, 0.46);
+}
+.navbttnro{
+	background: white;
+	border: none;
+	border-radius: 5px;
+	padding: 2px;
+}
+.navbttnro:hover{
 	background: rgba(83, 71, 65, 0.46);
 }
 .navlist{
@@ -40,7 +62,7 @@ body{
 	margin-right: auto;
 }
 .navitems:last-child{
-	margin-left: auto;
+	margin-left: 5px;
 }
 .item{
 	display: flex;
@@ -50,6 +72,7 @@ body{
 }
 .itemName{
 	margin-right: auto;
+	margin-left: 10px;
 }
 .removebttn{
 	background: white;
@@ -59,4 +82,11 @@ body{
 }
 .removebttn:hover{
 	background:rgba(83, 71, 65, 0.46);
+}
+.price{
+	margin-right: 20px;
+}
+.productImg{
+	height: 30px;
+	width: 30px;
 }
