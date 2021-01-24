@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "PrioList",
+  "description": "This extension allows you to create a wishlist which is then prioritized by the order of importance",
+  "version": "0.0",
+
+  "browser_action": {
+   "default_icon": "./visuals/icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab",
+   "storage",
+   "tabs"
+   ]
+}
